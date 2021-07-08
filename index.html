@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario</title>
+    <script async src="./index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="contenedor-form">
+      <form class="formulario">
+        <fieldset class="contenedor-fieldset-nombre">
+          <label class="label-nombre">
+            Nombre
+            <input class="input-nombre" name="input-nombre" type="text" />
+          </label>
+        </fieldset>
+
+        <fieldset class="contenedor-fieldset-temas">
+          <label class="label-temas">
+            De lo aprendido hasta ahora, ¿qué tema te gustó más?
+            <select class="seleccion-temas" name="seleccion-temas">
+              <option value="clases">Clases</option>
+              <option value="typescript">Typescript</option>
+              <option value="promesas">Promesas</option>
+              <option value="funciones">Funciones</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset class="contenedor-fieldset-preferencia-estudio">
+          <label class="label-preferencia-estudio">
+            Preferís estudiar
+            <div class="contenedor-inputs">
+              <!---->
+              <div class="contenedor-input-dia">
+                <label class="label-dia">
+                  De día
+                  <input
+                    class="input-radio-dia"
+                    type="radio"
+                    name="input-radio"
+                    value="De día"
+                  />
+                </label>
+              </div>
+
+              <div class="contenedor-input-noche">
+                <label class="label-noche"
+                  >De noche
+                  <input
+                    class="input-radio-noche"
+                    type="radio"
+                    name="input-radio"
+                    value="De noche"
+                  />
+                </label>
+              </div>
+              <!-- -->
+            </div>
+          </label>
+        </fieldset>
+
+        <fieldset class="contenedor-fieldset-temas-complejos">
+          <label class="label-temas-complejos">
+            ¿Cuales fueron los temas más complejos hasta ahora?
+            <div class="contenedor-de-eleccion-de-temas">
+              <div class="contenedor-typescript">
+                <label class="label-typescript"
+                  >Typescript
+                  <input
+                    class="checkbox-typescript"
+                    type="checkbox"
+                    name="checkbox-typescript"
+                  />
+                </label>
+              </div>
+
+              <div class="contenedor-promesas">
+                <label class="label-promesas"
+                  >Promesas
+                  <input
+                    class="checkbox-promesas"
+                    type="checkbox"
+                    name="checkbox-promesas"
+                  />
+                </label>
+              </div>
+
+              <div class="contenedor-clases">
+                <label class="label-clases"
+                  >Clases
+                  <input
+                    class="checkbox-clases"
+                    type="checkbox"
+                    name="checkbox-clases"
+                  />
+                </label>
+              </div>
+
+              <div class="contenedor-funciones">
+                <label class="label-funciones"
+                  >Funciones
+                  <input
+                    class="checkbox-funciones"
+                    type="checkbox"
+                    name="checkbox-funciones"
+                  />
+                </label>
+              </div>
+            </div>
+          </label>
+        </fieldset>
+
+        <div class="contenedor-de-boton">
+          <button class="boton">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
