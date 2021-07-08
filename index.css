@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.formulario {
+  padding: 50px;
+  border: solid 5px black;
+  border-radius: 20px;
+}
+.formulario fieldset {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contenedor-form {
+  padding: 40px 0 36px 46px;
+  display: flex;
+  justify-content: center;
+}
+
+/*///////////*/
+/*/ /////////*/
+/*/ /////////*/
+
+.contenedor-fieldset-nombre {
+  margin-bottom: 22px;
+}
+.label-nombre {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.input-nombre {
+  margin-top: 8px;
+  display: block;
+  width: 297px;
+  height: 37px;
+  border: solid 1px;
+  font-size: 18px;
+}
+
+/*/ //////////*/
+/*/ /////////*/
+/*/ /////////*/
+
+.contenedor-fieldset-temas {
+  margin-bottom: 36px;
+}
+.label-temas {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.seleccion-temas {
+  font-size: 18px;
+  font-family: "Roboto";
+  background-color: white;
+  display: block;
+  margin-top: 15px;
+  width: 297px;
+  height: 37px;
+  border: solid 1px;
+}
+/*/ //////////*/
+/*/ /////////*/
+/*/ /////////*/
+.contenedor-fieldset-preferencia-estudio {
+  margin-bottom: 25px;
+}
+.contenedor-inputs {
+  display: flex;
+  margin-top: 16px;
+}
+
+.label-preferencia-estudio {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.contenedor-input-dia {
+  margin-right: 36px;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.label-dia {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.input-radio-dia {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+.contenedor-input-noche {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.label-noche {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.input-radio-noche {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+/*/ //////////*/
+/*/ /////////*/
+/*/ /////////*/
+
+.contenedor-fieldset-temas-complejos {
+  margin-bottom: 63px;
+}
+
+.label-temas-complejos {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.contenedor-de-eleccion-de-temas {
+  margin-top: 17px;
+}
+.contenedor-typescript,
+.contenedor-promesas,
+.contenedor-clases {
+  margin-bottom: 13px;
+}
+.label-typescript,
+.label-promesas,
+.label-clases,
+.label-funciones {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.checkbox-typescript,
+.checkbox-promesas,
+.checkbox-clases,
+.checkbox-funciones {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/*/ //////////*/
+/*/ /////////*/
+/*/ /////////*/
+
+.boton {
+  width: 186px;
+  height: 58px;
+  font-size: 18px;
+  font-family: "Roboto";
+  border: solid 1px;
+}
